@@ -3,8 +3,8 @@ curl -L -o nvim.tar.gz https://github.com/neovim/neovim/releases/download/stable
 
 tar xzvf nvim.tar.gz
 
-echo "export PATH=$PATH:/home/student/nvim-linux64/bin" >> pathSetup.sh
-source pathSetup.sh
+echo "export PATH=$PATH:/home/student/nvim-linux64/bin" >> ~/.bashrc
+source ~/.bashrc
 
 
 #inctall nvim packer
